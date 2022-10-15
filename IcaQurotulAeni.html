@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <style>
+        *, html, body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .container {
+            background-color: #1d2b3a;
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .login {
+            background-color: white;
+            width: 500px;
+            height: 500px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .judul {
+            flex-direction: column;
+            text-align: center;
+            padding-bottom: 50px;
+        }
+        .input-box {
+            position: relative;
+            font-size: 20px;
+            padding-top: 10px;
+        }
+        .input-box input {
+            width: 100%;
+            font-size: 20px;
+            box-sizing: border-box;
+            border: none;
+            outline: none;
+            background: transparent;
+            border-bottom: 1px solid black;
+            padding-top: 20px;
+        }
+        .button [type="submit"] {
+            border: none;
+            border-radius: 3px;
+            background-color: green;
+            height: 40px;
+            width: 200px;
+            font-size: 15px;
+            color: white;
+            margin-top: 30px;
+        }
+        .button [type="submit"]:hover {
+            background-color: rgb(28, 152, 240);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="login">
+            <div class="judul">
+                <h1>Biodata</h1>
+            </div>
+            <div class="input-box">
+                <table>
+                    <tr>
+                        <td>Nama</td>
+                    </tr>
+                    <tr>
+                        <td>Ica Qurotul Aeni</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="input-box">
+                <table>
+                    <tr>
+                        <td>Kelas</td>
+                    </tr>
+                    <tr>
+                        <td>IF C 2020</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="input-box">
+                <table>
+                    <tr>
+                        <td>Praktikum </td>
+                    </tr>
+                    <tr>
+                        <td>Pemograman web lanjut shift 5</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
